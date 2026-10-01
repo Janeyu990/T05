@@ -114,6 +114,37 @@ body {
 	stroke-width: 4px;
 }
 
+.scatter-chart .axis path,
+.scatter-chart .axis line {
+	stroke: #aebdb6;
+}
+
+.scatter-chart .axis text,
+.scatter-chart .legend-label {
+	fill: #53645d;
+	font-size: 12px;
+}
+
+.scatter-chart .grid line {
+	stroke: #e3ebe7;
+}
+
+.scatter-chart .grid path {
+	stroke: none;
+}
+
+.scatter-chart .point {
+	stroke: #fff;
+	stroke-width: 0.8px;
+	opacity: 0.78;
+}
+
+.scatter-chart .point:hover {
+	stroke: #23313a;
+	stroke-width: 1.5px;
+	opacity: 1;
+}
+
 @media (max-width: 640px) {
 	body {
 		padding: 16px;
