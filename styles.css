@@ -84,6 +84,36 @@ body {
 	font-size: 13px;
 }
 
+.line-chart .axis path,
+.line-chart .axis line {
+	stroke: #aebdb6;
+}
+
+.line-chart .axis text,
+.line-chart .legend-label {
+	fill: #53645d;
+	font-size: 12px;
+}
+
+.line-chart .grid line {
+	stroke: #e3ebe7;
+}
+
+.line-chart .grid path {
+	stroke: none;
+}
+
+.line-chart .series-line {
+	fill: none;
+	stroke-width: 2.5px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+}
+
+.line-chart .series-line:hover {
+	stroke-width: 4px;
+}
+
 @media (max-width: 640px) {
 	body {
 		padding: 16px;
